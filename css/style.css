@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+
+/* Header */
+.page-header {
+  height: 450px;
+  background-color: #0c325a;
+  background-image: url("../img/oldman.png");
+  background-size: 60%;
+  background-position: 110% 110%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* MENU PRINCIPALE */
+.header-nav {
+  width: 85%;
+  /* height: 80px; */
+  margin: 0 auto;
+  line-height: 80px;
+}
+.header-nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header-nav-left {
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+.header-nav-right {
+  float: right;
+  width: 40%;
+  height: 100%;
+  text-align: right;
+}
+
+.header-nav li {
+  display: inline;
+  padding: 0 5px;
+}
+.header-nav-left li:first-child {
+  padding-left: 0;
+}
+.header-nav a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-nav a:hover,
+.header-nav a:active,
+.header-nav a:focus{
+  color: orange;
+}
+#tutor-link {
+  color: grey;
+}
+.logo-link {
+  margin-right: 12px;
+}
+.logo-link img{
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+.float-right-nav ul li {
+  float: right;
+}
+
+/* Bannerone */
+.bannerone {
+  position: relative;
+  width: 85%;
+  height: 370px;
+  margin: 0 auto;
+}
+.testo-bannerone {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50%;
+}
+.testo-bannerone > h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+/* main */
+.page-main {
+  /* background-color: green; */
+}
+.bandagrigia{
+  text-align: center;
+  padding: 30px;
+  background-color: lightgrey;
+}
+.bandagrigia h3{
+  color: grey;
+  margin-top: 5px;
+}
+
+/* infocorso */
+.infocorso:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.infocorso{
+  width: 85%;
+  margin: 10px auto 30px;
+}
+.col-corso{
+  float: left;
+  /* background-color: yellow; */
+  /* height: 200px; */
+  width: 30%;
+  text-align: center;
+}
+.col-corso.center {
+  margin: 0 5%;
+}
+.col-corso .col-img{
+  height: 140px;
+}
+.col-corso h2{
+  color: lightgreen;
+  margin-top: 20px;
+  min-height: 70px;
+}
+.col-corso hr{
+  width: 30px;
+  margin: 10px auto;
+  color: lightgrey;
+}
+.col-corso p{
+  color: lightgrey;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.page-footer {
+  background-color: #d3d3d3;
+}
+
+
+/* Buttons */
+a.button {
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+a.button:hover,
+a.button:active,
+a.button:focus {
+  color: #fff;
+}
+a.button-green {
+  background-color: #7cbb02;
+}
+a.button-big {
+  padding: 10px 10px;
+}
+a.button-border {
+  padding: 5px 20px;
+  border: 1px solid #4e8cb6;
+}
